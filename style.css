@@ -8,17 +8,35 @@ body {
     flex-grow: 1;
     display: flex;
 }
-    /* 1st section and elements */
+    /* 1st section */
     .hero.div {
         background-color: #1F2937;
     }
 
-    /* 3rd section and elements */
+    /* 3rd section */
     .quote.div {
         background-color: #E5E7EB;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+        .quote.container {
+            width: auto;
+            padding: 0 72px;
+        }
+            .quote.text {
+                font-size: 36px;
+                font-style: italic;
+                color: #1F2937;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .quote.author {
+                display: flex;
+                justify-content: flex-end;
+            }
 
-    /* 4th section and elements */
+    /* 4th section */
     .signup.div {
         justify-content: center;
         align-items: center;
@@ -56,9 +74,10 @@ body {
                     color: white;
                     padding: 4px 16px;
                     height: 32px;
+                    text-wrap: nowrap;
                 }
     
-    /* 5th section and elements */
+    /* 5th section */
     .foot.div {
         background-color: #1F2937;
         flex-basis: 64px;
