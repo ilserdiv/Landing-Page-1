@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.div {
+    flex-grow: 1;
+    display: flex;
+}
+
+    .hero.div {
+        background-color: #1F2937;
+    }
+
+    .quote.div {
+        background-color: #E5E7EB;
+    }
+
+    .foot.div {
+        background-color: #1F2937;
+    }
+
