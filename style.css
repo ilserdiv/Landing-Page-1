@@ -8,15 +8,57 @@ body {
     flex-grow: 1;
     display: flex;
 }
-
+    /* 1st section and elements */
     .hero.div {
         background-color: #1F2937;
     }
 
+    /* 3rd section and elements */
     .quote.div {
         background-color: #E5E7EB;
     }
 
+    /* 4th section and elements */
+    .signup.div {
+        justify-content: center;
+        align-items: center;
+    }
+        .signup.box {
+            background-color: #3882F6;
+            border-radius: 8px;
+            color: white;
+            padding: 16px;
+            display: flex;
+        }
+            .signup.box > .left, .signup.box > .right {
+                padding: 16px 32px;
+                display: flex;
+                justify-content: center;
+            }
+            .signup.box > .left {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+                .signup.box > .left > p {
+                    margin: 0;
+                    padding: 0;
+                }
+                .signup.box > .left > p > strong {
+                    font-size: 24px;
+                }
+            .signup.box > .right {
+                align-items: center;
+            }
+                .signup.box > .right > button {
+                    background-color: #3882F6;
+                    border: solid white 1px;
+                    border-radius: 8px;
+                    color: white;
+                    padding: 4px 16px;
+                    height: 32px;
+                }
+    
+    /* 5th section and elements */
     .foot.div {
         background-color: #1F2937;
         flex-basis: 64px;
