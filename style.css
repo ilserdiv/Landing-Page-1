@@ -93,9 +93,11 @@ body {
             font-size: 36px;
             color: #1F2937;
             font-weight: 900;
+            text-align: center;
         }
         .boxes {
             display: flex;
+            flex-wrap: wrap;
             gap: 8px;
         }
             .group {
