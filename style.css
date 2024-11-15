@@ -41,12 +41,13 @@ body {
         .second {
             display: flex;
             padding: 64px;
-            justify-content: center;
-            gap: 32px;
+            justify-content: space-evenly;
+            gap: 12px;
+            flex-wrap: wrap;
         }
             .second > .left, .second > .right {
-                width: 100px;
                 flex-grow: 1;
+                width: 50%;
             }
             .second > .left {
                 display: flex;
@@ -78,8 +79,10 @@ body {
                 background-color: #e5e7eb81;
                 color: white;
                 display: flex;
+                flex-basis: 300px;
                 justify-content: center;
                 align-items: center;
+                height: 250px;
             }
 
     /* 2nd section */
@@ -99,6 +102,7 @@ body {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
+            justify-content: center;
         }
             .group {
                 display: flex;
@@ -156,7 +160,7 @@ body {
             display: flex;
         }
             .signup.box > .left, .signup.box > .right {
-                padding: 16px 32px;
+                padding: 16px;
                 display: flex;
                 justify-content: center;
             }
